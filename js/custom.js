@@ -3,6 +3,7 @@ $(document).ready(function() {
 	// SCROLLED
 	$(window).scroll(function() {
 		$('#header').toggleClass('header-scrolled', $(this).scrollTop() > 0);
+		$('#header-navmobile').toggleClass('header-navmobile-scrolled', $(this).scrollTop() > 0);
 	});
 
 
